@@ -23,9 +23,9 @@ fun sum(a: Int, b: Int): Int {
   return a + b
 } //function with parameters and return value
 		
-		fun sumSingle(a: Int, b: Int): Int = a + b //A single-expression function 
+fun sumSingle(a: Int, b: Int): Int = a + b //A single-expression function 
 		
-		fun doMath(mathOperation: (Int, Int) -> Int, a: Int, b: Int): Int {
-			return mathOperation(a, b)
-		}//A function that accepts another function as input
-		println(doMath(::sum, 2 ,3)) //prints 5
+fun doMath(mathOperation: (Int, Int) -> Int, a: Int, b: Int): Int {
+	return mathOperation(a, b)
+} //A function that accepts another function as input
+println(doMath(::sum, 2 ,3)) //prints 5
