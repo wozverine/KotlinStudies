@@ -5,7 +5,9 @@ var openBroadwayShows = mutableListOf("The Lion King" "Chicago", "The Cher Show"
 openBroadwayShows.size //Prints: 4
 
 val planets = mutableListOf("Mercury", "Venus", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto")
-planets.remove("Pluto")
+planets.remove("Pluto") //removes PLutp
+planets.add("Pluto")
+planets.removeAt(7) //removes PLutp
 planets.add("Earth")
 println(planets.contains("Pluto")) //prints false
 println(planets.random())
