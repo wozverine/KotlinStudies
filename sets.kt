@@ -7,3 +7,6 @@ print(obsoleteTech) //prints [Rolodex, Phonograph, Videocassette recorder, Video
 obsoleteTech.elementAt(2) // Videocassette recorder 
 //.elementAtOrNull to avoid NullPointerException
 obsoleteTech.elementAtOrNull()(6) //prints "null"
+
+//mutable set is declared by mutableSetOf
+ var apolloLandingSites = mutableSetOf("Mare Tranquillitatis", "Fra Mauro", "Hadley/Apennines", "Descartes", "Taurus-Littrow", "Oceanus Procellarum")
