@@ -10,3 +10,10 @@ obsoleteTech.elementAtOrNull()(6) //prints "null"
 
 //mutable set is declared by mutableSetOf
  var apolloLandingSites = mutableSetOf("Mare Tranquillitatis", "Fra Mauro", "Hadley/Apennines", "Descartes", "Taurus-Littrow", "Oceanus Procellarum")
+
+ var uniqueParticipants = mutableSetOf<String>() 
+ var participants = listOf("elePHPant", "Gopher", "Lenny", "Moby Dock", "Codey", "Gopher")
+ uniqueParticipants.addAll(participants)
+ println("The talent show has ${uniqueParticipants.size} unique participants.") // prints ""The talent show has 5 unique participants.""
+ uniqueParticipants.clear()
+ println(uniqueParticipants) //prints []
