@@ -17,3 +17,5 @@ obsoleteTech.elementAtOrNull()(6) //prints "null"
  println("The talent show has ${uniqueParticipants.size} unique participants.") // prints ""The talent show has 5 unique participants.""
  uniqueParticipants.clear()
  println(uniqueParticipants) //prints []
+
+ var testGrades = mutableSetOf(65 ,50 ,72, 80, 53, 84)
