@@ -1,5 +1,7 @@
-//An immutable set is declared using the setOf keyword and indicates a set whose values cannot change throughout a program
+/*A set is an unordered Kotlin collection that stores unique elements.
+An immutable set is declared using the setOf keyword and indicates a set whose values cannot change throughout a program*/
 //setOf removes duplicates
+
 var obsoleteTech = setOf("Rolodex", "Phonograph", "Videocassette recorder", "Video projector", "Rolodex")
 print(obsoleteTech) //prints [Rolodex, Phonograph, Videocassette recorder, Video projector] 
 
