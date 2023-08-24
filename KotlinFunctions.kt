@@ -16,7 +16,7 @@ fun petMaker(name: String = "Doggo", age: Int, isVaxxed: Boolean = false) {
 	
 petMaker(age = 2) //Using just the non-default argument
 petMaker("BB",age = 3,true)
-//or
+//or can be
 petMaker(name= "BB",age = 3, isVaxxed =  true)
 		
 fun sum(a: Int, b: Int): Int {
