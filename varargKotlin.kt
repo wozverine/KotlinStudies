@@ -36,6 +36,7 @@ printAll(*arrayOfInt)
 but arrayOf creates a type of kotlin.Array, which does not work with the same vararg parameter. (This is true as of Kotlin 
 version 1.2.51.)*/
 
+
 fun <T> printAll(vararg elems: T) {
     for (e in elems) println(e)
 }
