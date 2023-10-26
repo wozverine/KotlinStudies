@@ -25,8 +25,7 @@ printAll(*arr)
 /*prints:
 1
 2
-3
-*/
+3*/
 
 val arrayOfInt = arrayOf(1,2,3)
 printAll(*arrayOfInt)
