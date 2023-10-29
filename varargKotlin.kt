@@ -1,4 +1,5 @@
 //from https://kotlin-quick-reference.com/130-R-vararg-parameters.html
+
 fun printAll(vararg numbers: Int) {
     for (i in numbers) println(i)
 }
